@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container chính */
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #004d00;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #004d00;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Các phần */
+section {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+section h2 {
+    background-color: #004d00;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    transition: background-color 0.3s;
+}
+
+section:hover h2 {
+    background-color: #003300;
+}
+
+.section-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #004d00;
+    background-color: #e9f7e9;
+}
+
+.section-content.show {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0;
+    color: #004d00;
+}
+
+.project p {
+    margin: 5px 0;
+}
+
+/* Các phần kỹ năng mềm */
+.skills ul, .soft-skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills ul li, .soft-skills ul li {
+    margin-bottom: 10px;
+}
